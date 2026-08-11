@@ -277,3 +277,6 @@ If you like this project:
 <img src="https://user-images.githubusercontent.com/74038190/216656990-1c0d7c0e-7c9e-4c5d-b5e3-5a4c4b4b4b4b.gif" width="120"/>
 
 </div>
+git add .
+git commit -m "Add animated professional README"
+git push

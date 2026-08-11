@@ -10,6 +10,7 @@
 <img src="https://img.shields.io/badge/Dart-3.12+-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
 <img src="https://img.shields.io/badge/Android-14+-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
 <img src="https://img.shields.io/badge/SIH-Ready-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
 
 <br/><br/>
 
@@ -41,7 +42,7 @@
 
 <div align="center">
 
-<img src="docs/citizen_dashboard.png" width="300"/>
+<img src="doc/citizen_dashboard.png" width="300"/>
 
 </div>
 
@@ -70,7 +71,7 @@
 
 <div align="center">
 
-<img src="docs/rescue_dashboard.png" width="300"/>
+<img src="doc/rescue_dashboard.png" width="300"/>
 
 </div>
 
@@ -95,11 +96,26 @@
 
 ---
 
+# 🔀 Dashboard Selection
+
+<div align="center">
+
+<img src="doc/dashboard_selector.png" width="300"/>
+
+</div>
+
+Choose your role:
+
+- 👤 Citizen Dashboard
+- 🚨 Rescue Team Dashboard
+
+---
+
 # 🆘 Emergency SOS
 
 <div align="center">
 
-<img src="docs/sos_screen.png" width="300"/>
+<img src="doc/sos_screen.png" width="300"/>
 
 </div>
 
@@ -157,7 +173,7 @@ Citizen Alert + Rescue Dispatch
 Works even when the internet is unavailable:
 
 - 📖 Safety guides cached
-- 🏠 Shelter list available
+- 🏠 Shelter data cached
 - 🆘 SOS queue supported
 - 📡 SMS emergency concept
 
@@ -215,15 +231,14 @@ flutter run
 
 ---
 
-# 📂 Screenshots Folder
+# 📦 Main Dependencies
 
-Place these images in your repository:
-
-```text
-docs/
-├── citizen_dashboard.png
-├── rescue_dashboard.png
-└── sos_screen.png
+```yaml
+google_fonts: ^6.3.3
+connectivity_plus: ^6.1.5
+geolocator: ^14.0.2
+shared_preferences: ^2.5.3
+flutter_animate: ^4.5.2
 ```
 
 ---
@@ -256,27 +271,34 @@ docs/
 
 ---
 
-# ⭐ Support
+# 🤝 Contributing
 
-If you like this project:
+```bash
+# Fork the repository
+# Create a feature branch
+git checkout -b feature/new-feature
 
-<div align="center">
+# Commit changes
+git commit -m "Add new feature"
 
-<a href="https://github.com/YOUR_USERNAME/JeevanSetuAI/stargazers">
-  <img src="https://img.shields.io/badge/⭐%20Star%20This%20Repository-FFD700?style=for-the-badge"/>
-</a>
+# Push
+git push origin feature/new-feature
+```
 
-</div>
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
 
 ---
 
 <div align="center">
 
-## 🌊 “Saving Lives Through Intelligent Disaster Response”
-
 <img src="https://user-images.githubusercontent.com/74038190/216656990-1c0d7c0e-7c9e-4c5d-b5e3-5a4c4b4b4b4b.gif" width="120"/>
 
+## 🌊 “Saving Lives Through Intelligent Disaster Response”
+
+### ⭐ If you like this project, give it a star on GitHub!
+
 </div>
-git add .
-git commit -m "Add animated professional README"
-git push
